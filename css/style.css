@@ -1,65 +1,79 @@
 body {
-    background-color: black;
-    font: normal 15pt Arial;
-    text-align: center;
+    background-color: #3A7FD2;
+    color: white;
+    font: normal 20px Arial;
     display: flex;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
 }
 
-header {
-    color: white;
-}
-
-section {
+main {
+    width: 600px;
     background-color: white;
-    border-radius: 10px;
-    width: 500px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.479);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.315);
+    border-radius: 20px;
+    color: black;
 }
 
-footer {
-    color: white;
+footer p {
     font-style: italic;
 }
 
-#photo {
-    border-radius: 50%;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.315);
-    cursor: grab;
-    transition: all;
-    transition-duration: 0.5s;
+#infosone {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 30px;
 }
 
-#photo:hover{
-    transform: scale(1.05);
+#infosone input{
+    height: 15px;
+    margin-top: 2px;
 }
 
-footer a{
-    text-decoration: none;
-    cursor: pointer;
-    color: white;
+#infosone p {
+    margin: 0px;
 }
 
-#daymsg {
-    padding-top: 35px;
-}
-
-#msg {
-    margin-top: 10px;
-}
-
-#img {
+#infostwo {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
     margin-top: 20px;
-    z-index: 3;
 }
 
-#msg2 p {
+#infostwo label{
+    font-size: 18px;
+    margin-top: 5px;
+    margin-left: 1px;
+}
+
+#infostwo p {
     margin: 0;
-    margin-top: 20px;
-    margin-bottom: 25px;
 }
 
-#photoalte:hover {
-    opacity: 100%;
+#infostwo input{
+    margin-left: 10px;
+}
+
+#infostree {
+    margin-left: 20px;
+}
+
+#infostree input {
+    margin-top: 20px;
+}
+
+#infosfor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer p {
+    color: white;
 }
