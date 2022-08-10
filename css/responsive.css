@@ -1,0 +1,38 @@
+@media(max-width: 512px){
+    body {
+        transform: scale(0.9);
+    }
+}
+
+@media(max-width: 460px){
+    body {
+        transform: scale(0.8);
+    }
+}
+
+@media(max-width: 408px){
+    body {
+        transform: scale(0.7);
+    }
+}
+
+@media(max-width: 364px){
+    body {
+        transform: scale(0.6);
+    }
+
+    #msg p {
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    #msg2 p {
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    footer p {
+        font-size: 20px;
+        font-weight: 600;
+    }
+}

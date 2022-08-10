@@ -1,0 +1,74 @@
+body {
+    background-color: black;
+    font: normal 15pt Arial;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+header {
+    color: white;
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    width: 500px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.479);
+}
+
+footer {
+    color: white;
+    font-style: italic;
+}
+
+#photo {
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.315);
+    cursor: grab;
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+#photo:hover{
+    transform: scale(1.05);
+}
+
+footer a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+#daymsg {
+    padding-top: 35px;
+}
+
+#msg {
+    margin-top: 10px;
+}
+
+#img {
+    margin-top: 20px;
+    z-index: 3;
+}
+
+#msg2 p {
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+#photoalte {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0%;
+    transition: opacity;
+    transition-duration: 0.5s;
+    cursor: grab;
+}
+
+#photoalte:hover {
+    opacity: 100%;
+}
