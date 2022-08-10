@@ -1,79 +1,74 @@
 body {
-    background-color: #3A7FD2;
-    color: white;
-    font: normal 20px Arial;
+    background-color: black;
+    font: normal 15pt Arial;
+    text-align: center;
     display: flex;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
 }
 
-main {
-    width: 600px;
+header {
+    color: white;
+}
+
+section {
     background-color: white;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.315);
-    border-radius: 20px;
-    color: black;
+    border-radius: 10px;
+    width: 500px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.479);
 }
 
-footer p {
+footer {
+    color: white;
     font-style: italic;
 }
 
-#infosone {
-    display: flex;
-    align-items: center;
-    margin-left: 20px;
-    margin-top: 30px;
+#photo {
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.315);
+    cursor: grab;
+    transition: all;
+    transition-duration: 0.5s;
 }
 
-#infosone input{
-    height: 15px;
-    margin-top: 2px;
+#photo:hover{
+    transform: scale(1.05);
 }
 
-#infosone p {
-    margin: 0px;
-}
-
-#infostwo {
-    display: flex;
-    align-items: center;
-    margin-left: 20px;
-    margin-top: 20px;
-}
-
-#infostwo label{
-    font-size: 18px;
-    margin-top: 5px;
-    margin-left: 1px;
-}
-
-#infostwo p {
-    margin: 0;
-}
-
-#infostwo input{
-    margin-left: 10px;
-}
-
-#infostree {
-    margin-left: 20px;
-}
-
-#infostree input {
-    margin-top: 20px;
-}
-
-#infosfor {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-footer a {
+footer a{
     text-decoration: none;
+    cursor: pointer;
+    color: white;
 }
 
-footer p {
-    color: white;
+#daymsg {
+    padding-top: 35px;
+}
+
+#msg {
+    margin-top: 10px;
+}
+
+#img {
+    margin-top: 20px;
+    z-index: 3;
+}
+
+#msg2 p {
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+#photoalte {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0%;
+    transition: opacity;
+    transition-duration: 0.5s;
+    cursor: grab;
+}
+
+#photoalte:hover {
+    opacity: 100%;
 }
