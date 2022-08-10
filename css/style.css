@@ -60,15 +60,6 @@ footer a{
     margin-bottom: 25px;
 }
 
-#photoalte {
-    position: absolute;
-    border-radius: 50%;
-    opacity: 0%;
-    transition: opacity;
-    transition-duration: 0.5s;
-    cursor: grab;
-}
-
 #photoalte:hover {
     opacity: 100%;
 }
